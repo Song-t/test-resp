@@ -5,9 +5,12 @@ public class testGit {
         System.out.println("testGit");
         System.out.println("testGit");
         System.out.println("testGit");
+        for (int i = 0; i < 5; i++) {
+            print();
+        }
     }
 
-    public void print() {
+    public static void print() {
         System.out.println("hello");
     }
 }
